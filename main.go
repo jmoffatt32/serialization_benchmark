@@ -130,7 +130,7 @@ func SendProcess() {
 	c := startServer()
 	// Once connection is established, take timestamp of `START_TIME`
 
-	for i := 3; i < 10; i++ {
+	for i := 3; i < 9; i++ {
 		var size = int(math.Pow(10, float64(i)))
 		var p = makePayload(size)
 
